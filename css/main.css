@@ -1,0 +1,997 @@
+body {
+	background:url(../Images/body.jpg) top center no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font-family: tahoma;
+}
+
+#wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#logo {
+	background-image: url(../Images/Logo1.png);
+	background-repeat: no-repeat;
+	width: 149px;
+	height: 146px;
+	margin-top: 30px;
+}
+
+#logo a {
+	width: 149px;
+	height: 100%;
+}
+
+#tourTitel {
+	background-image: url(../Images/TourTop100Titel.png);
+	background-repeat: no-repeat;
+	width: 270px;
+	height: 33px;
+	margin-left: 185px;
+	margin-top: -152px;
+}
+
+/*     nav       */
+
+nav.main {
+	margin-left: 190px;
+	margin-top: -60px;
+}
+
+nav.main ul {
+	list-style-type: none;
+	background-image: url(../Images/nav-sprite.png);
+	background-repeat: no-repeat;
+	height: 38px;
+	padding:0;
+}
+
+nav.main ul li {
+	width: 129px;
+	float: left;
+	margin-top: 8px;
+}
+
+nav.main ul li.Second {
+	margin-left: -5px;
+}
+
+nav.main ul li a {
+	list-style-type: none;
+	font-size: 15px;
+	text-decoration: none;
+	margin-left: 25px;
+	color: white;
+}
+
+nav.main ul li.Second a {
+	margin-left: 15px;
+}
+
+nav.main ul li.First a {
+	position: absolute;
+}
+
+nav.main input {
+	width: 110px;
+	margin-left: 20px;
+}
+
+nav.main li.Second:hover,nav.main li.Second.active {
+	background-image: url(../Images/nav-sprite.png);
+	background-position: -124px -37px;
+	height: 30px;
+	width: 129px;
+	margin-top: -0px;
+	padding-top: 8px;
+	display: block;
+}
+
+nav.main li.Second a:hover {
+	padding-top: 10px;
+}
+
+nav.main li.First:hover,nav.main li.First.active {
+	background-image: url(../Images/nav-sprite.png);
+	background-position: 0 -37px;
+	height: 28px;
+	width: 127px;
+	margin-top: -0px;
+	padding-top: 8px;
+	margin-right: 2px;
+	display: block;
+}
+
+nav.main .sButton {
+	margin-top: -20px;
+	margin-left: 112px;
+}
+
+#Live {
+	margin-left: 890px;
+	margin-top: -5px;
+}
+
+/*      calender nav      */
+
+.month {
+	padding-right: 15px;
+}
+
+ul.calender {
+	background-image: url(../Images/DatumBar.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 1024px;
+	padding-top: 2px;
+	margin-top: -0px;
+	padding-left: 60px;
+}
+
+ul.calender li {
+	font-family: "Franklin Gothic Demi Cond";
+	font-weight: bold;
+	font-size: 18px;
+	list-style-type: none;
+	float: left;
+	border: 3px solid rgba(0,0,0,0);
+	width: 33.4px;
+	text-align: center;
+	border-right: 1px solid black;
+	margin-top: -2px;
+}
+
+ul.calender li a {
+	list-style-type: none;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: black;
+	font-size: 18px;
+}
+
+ul.calender li.today {
+	cursor: pointer;
+	background-color: white;
+	border: 3px solid red;
+	height: 30px;
+}
+
+ul.calender li.day a:hover {
+	margin-left: 2px;
+}
+
+ul.calender li.daypast {
+	background-image: url(../Images/navgeweest.png);
+	margin-top: -2px;
+	border-right: 1px solid black;
+	border-bottom: none;
+	border-left: none;
+	height: 30px;
+}
+
+ul.calender li.daypast a {
+	padding-top: 2px;
+}
+
+ul.calender li.daypast:hover {
+	cursor: pointer;
+	border: 3px solid red;
+	width: 28px;
+}
+
+/*      content      */
+
+#content {
+	width: 1024px;
+	margin: 100px auto;
+	height: 900px;
+	background: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#banners {
+	width: 308px;
+	margin-top: 118px;
+	float: right;
+}
+
+#banners img {
+	margin-top: -10px;
+	padding-left: 38px;
+	padding-bottom: 40px;
+}
+
+#song_container{
+	 width: 700px;
+	 height: 60px;
+	 padding-left: 25px;
+	 padding-right: 25px;
+	 padding-top: 40px;
+}
+
+#song_container {
+	margin-left: 30px;
+	width: 600px;
+	border-bottom: 1px dotted black;
+}
+
+#song_container h2 {
+	color: red;
+}
+
+#song_container article {
+	height: 150px;
+	margin-top: 40px;
+	margin-bottom: 45px;
+}
+
+#song_container .song_image{
+	 float: left;
+	 width: 210px;
+	 height: 145px;
+	 margin-right: 10px;
+}
+
+#song_container .play {
+	margin-left: -220px;
+	position: absolute;
+}
+
+#song_container .comment_image {
+	margin-top: -20px;
+	margin-left: 220px;
+}
+
+#song_container .commentNum {
+	color: #17BBE3;
+	margin-top: -35px;
+	margin-left: 250px;
+	padding-right: 20px;
+}
+
+#song_container .commentNum a {
+	list-style-type: none;
+	text-decoration: none;
+	color: #17BBE3;
+}
+
+#song_container .songImages {
+	margin-top: -35px;
+	margin-left: 502px;
+}
+
+#song_container .songImages img {
+	margin-left: 10px;
+}
+
+#song_info_container a {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#song_info_container .lButtonSpace{
+	 width: 220px;
+	 height: 100px;
+	 float: left;
+}
+
+#song_info_container .mButtonSpace{
+	 width: 250px;
+	 height: 100px;
+	 float: left;
+}
+
+#song_info_container .rButtonSpace{
+	 width: 220px;
+	 height: 100px;
+	 margin-top: 20px;
+	 float: left;
+}
+
+#song_container .number,
+#song_info_container .previous,
+#song_info_container .next{
+	  color: #fff;
+	  text-align: center;
+	  font-size: 20px;
+	  width: 25px;
+	  height: 25px;
+	  background-color: red;
+	  float: left;
+}
+
+#song_info_container .current{
+	  color: #fff;
+	  text-align: center;
+	  font-size: 20px;
+	  width: 40px;
+	  height: 40px;
+	  background-color: red;
+	  margin: 0 auto;
+}
+
+#song_info_container .next{
+}
+.songName{
+	 color: black;
+	 text-align: center;
+}
+
+#song_info_container .songImages {
+	margin-top: -25px;
+	margin-left: 600px
+}
+
+#song_info_container .songImages img {
+	margin-left: 5px;
+}
+
+#song_container .number{
+	 color: #fff;
+	 text-align: center;
+	 font-size: 20px;
+	 width: 35px;
+	 height: 30px;
+	 margin-right: 5px;
+	 padding-top: 3px;
+	 background-color: red;
+	 float: left;
+}
+
+#song_container .comment_image {
+	padding-top: 5px;
+}
+
+#song_container h4 {
+	margin-top: -20px;
+	margin-left: 250px;
+}
+
+#song_info_container{
+  width: 700px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 40px;
+}
+
+#song_info_container .previous{
+ color: #fff;
+  text-align: center;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+  background-color: red;
+  float: left;
+}
+
+#song_info_container .rButtonSpace a {
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	margin-left: 5px;
+}
+
+.videoBox{
+ width: 676px;
+ height: 428px;
+ margin: 120 auto;
+ box-shadow: 0px 1px 1px 2px #eee;
+}
+
+.videoBox iframe{
+ width: 640px;
+ height: 390px;
+ margin-top: 18px;
+ margin-left: 19px;
+}
+
+.textBox {
+	margin-top: -60px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	width: 660px;
+	font-size: 16px;
+}
+
+.MessageContent {
+	margin-top: -40px;
+	margin-left: 260px;
+}
+
+.MessageContent a {
+	text-decoration: none;
+	color: #17BBE3;
+}
+
+#top100_container {
+	display: block;
+	width: 70%;
+}
+
+#top100_container ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 50px;
+}
+
+#top100_container h2 {
+	margin-top: 50px;
+	padding-top: 50px;
+	margin-left: 34px;
+	width: 653px;
+	color: red;
+	border-bottom: 1px dotted black;
+}
+
+#top100_container #num1{
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	width: 36px;
+	height: 32px;
+	background-color: red;
+	padding-top: 5px;
+	margin-top: -22px;
+	margin-left: 240px;
+}
+
+#top100_container #num2 {
+	z-index: 1000;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	width: 30px;
+	height: 32px;
+	background-color: grey;
+	padding-top: 4px;
+	margin-top: -25px;
+	margin-left: 277px;
+}
+
+#top100_container #num3 {
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	width: 36px;
+	height: 27px;
+	background-color: red;
+	padding-top: 5px;
+	margin-top: -45px;
+	margin-left: 308px;
+}
+
+#top100_container li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px dotted black;
+}
+
+#top100_container .numbers {
+	color: #fff;
+	display: inline-block;
+	width: 29px;
+	height: 25px;
+	font-size: 18px;
+	padding-top: 5px;
+	margin-right: 5px;
+	background-color: grey;
+	text-align: center;
+}
+
+#top100_container .passed {
+	background-color: red;
+}
+
+#top100_container p {
+	margin: 0;
+	padding: 0;
+}
+
+#top100_container p a {
+	text-decoration: none;
+	color: black;
+}
+
+.wLink{
+ font-family: 'Tahoma';
+ font-weight: bold;
+ font-size: 11px;
+ color: #09b5e7;
+}
+.comment_date{
+ font-weight: bold;
+ color: #eee;
+
+}
+
+#commentForm{
+ margin-left: 5px;
+}
+
+.formText{
+ margin-left: 10px;
+ font-weight: bold;
+}
+
+.formInput{
+  width: 250px;
+}
+
+#songNum1 {
+	margin-left: 10px !important;
+}
+
+#songNum2 {
+	margin-top: -5px !important;
+	margin-bottom: 2px !important;
+}
+
+#songNum3 {
+	margin-left: 3px !important;
+	margin-bottom: 1px !important;
+}
+
+#songNum4 {
+	margin-left: 10px !important;
+}
+
+#songNum5 {
+	margin-top: -5px !important;
+	margin-left: 7px !important;
+}
+
+#songNum6 {
+	margin-top: -5px !important;
+	margin-left: 4px !important;
+}
+
+#songNum7 {
+	margin-top: -5px !important;
+}
+
+#songNum8 {
+	margin-top: -1px !important;
+	margin-left:	11px !important;
+}
+
+#songNum9 {
+	margin-top: -1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum10 {
+	margin-top: 1px !important;
+	margin-left: 7px !important;
+}
+
+#songNum11 {
+	margin-top: 2px !important;
+}
+
+#songNum12 {
+	margin-top: -1px !important;
+	margin-left: 3px !important;
+}
+
+#songNum13 {
+	margin-top: -1px !important;
+}
+
+#songNum14 {
+	margin-top: -2px !important;
+	margin-left: -3px !important;
+}
+
+#songNum15 {
+	margin-top: -1px !important;
+}
+
+#songNum16 {
+	margin-top: -1px !important;
+	margin-left: 5px !important;
+}
+
+#songNum17 {
+	margin-top: -1px !important;
+}
+
+#songNum18 {
+	margin-top: -1px !important;
+	margin-left: 1px !important;
+}
+
+#songNum19 {
+	margin-top: -1px !important;
+	margin-left: 10px !important;
+}
+
+#songNum20 {
+	margin-top: -1px !important;
+}
+
+#songNum21 {
+	margin-top: 1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum22 {
+	margin-top: 1px !important;
+	margin-left: 10px !important;
+}
+
+#songNum23 {
+	margin-top: -1px !important;
+	margin-left: 6px !important;
+}
+
+#songNum24 {
+	margin-top: -1px !important;
+	margin-left: 3px !important;
+}
+
+#songNum25 {
+	margin-top: -1px !important;
+}
+
+#songNum26 {
+	margin-top: -1px !important;
+	margin-left: 10px !important;
+}
+
+#songNum27 {
+	margin-top: -1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum28 {
+	margin-top: -2px !important;
+	margin-left: 10px !important;
+}
+
+#songNum29 {
+	margin-top: 1px !important;
+}
+
+#songNum30 {
+	margin-top: -1px !important;
+	margin-left: 4px !important;
+}
+
+#songNum31 {
+	margin-top: -1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum32 {
+	margin-top: -2px !important;
+}
+
+#songNum33 {
+	margin-left: 3px !important;
+}
+
+#songNum34 {
+	margin-top: -1px !important;
+	margin-left: 7px !important;
+}
+
+#songNum35 {
+	margin-top: -1px !important;
+	margin-left: 4px !important;
+}
+
+#songNum36 {
+	margin-top: -1px !important;
+	margin-left: 5px !important;
+}
+
+#songNum37 {
+	margin-top: -1px !important;
+	margin-left: 10px !important;
+}
+
+#songNum38 {
+	margin-top: -1px !important;
+}
+
+#songNum39 {
+	margin-top: 1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum40 {
+	margin-top: 3px !important;
+	margin-left: 6px !important;
+}
+
+#songNum41 {
+	margin-top: -1px !important;
+	margin-left: 3px !important;
+}
+
+#songNum42 {
+	margin-top: -1px !important;
+	margin-left: 1px !important;
+}
+
+#songNum43 {
+	margin-top: -1px !important;
+}
+
+#songNum44 {
+	margin-top: -1px !important;
+	margin-left: 10px !important;
+}
+
+#songNum45 {
+	margin-top: -1px !important;
+}
+
+#songNum46 {
+	margin-top: -1px !important;
+	margin-left: 10px !important;
+}
+
+#songNum47 {
+	margin-top: 1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum48 {
+	margin-top: -1px !important;
+	margin-left: 4px !important;
+}
+
+#songNum49 {
+	margin-top: -1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum50 {
+	margin-top: -1px !important;
+}
+
+#songNum51 {
+	margin-top: -1px !important;
+	margin-left: 4px !important;
+}
+
+#songNum52 {
+	margin-top: -1px !important;
+	margin-left: 7px !important;
+}
+
+#songNum53 {
+	margin-top: -1px !important;
+	margin-left: 4px !important;
+}
+
+#songNum54 {
+	margin-top: -1px !important;
+	margin-left: 5px !important;
+}
+
+#songNum55 {
+	margin-top: -1px !important;
+	margin-left: 9px !important;
+}
+
+#songNum56 {
+	margin-top: -1px !important;
+}
+
+#songNum57 {
+	margin-top: 1px !important;
+	margin-left: 5px !important;
+}
+
+#songNum58 {
+	margin-top: 2px !important;
+	margin-left: 9px !important;
+}
+
+#songNum59 {
+	margin-top: -1px !important;
+	margin-left: 6px !important;
+}
+
+#songNum60 {
+	margin-top: -1px !important;
+	margin-left: 3px !important;
+}
+
+#songNum61 {
+	margin-top: -1px !important;
+}
+
+#songNum62 {
+	margin-left: 10px !important;
+}
+
+#songNum63 {
+	margin-top: -1px !important;
+	margin-left: 1px !important;
+}
+
+#songNum64 {
+	margin-top: -1px !important;
+	margin-left: 10px !important;
+}
+
+#songNum65 {
+	margin-top: 2px !important;
+	margin-left: 2px !important;
+}
+
+#songNum66 {
+	margin-top: -1px !important;
+	margin-left: 5px !important;
+}
+
+#songNum67 {
+	margin-top: -1px !important;
+	margin-left: 3px !important;
+}
+
+#songNum68 {
+	margin-top: -1px !important;
+}
+
+#songNum69 {
+	margin-left: 2px !important;
+}
+
+#songNum70 {
+	margin-top: -1px !important;
+	margin-left: 5px !important;
+}
+
+#songNum71 {
+	margin-top: -1px !important;
+	margin-left: 1px !important;
+}
+
+#songNum72 {
+	margin-top: -1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum73 {
+	margin-top: -1px !important;
+	margin-left: 5px !important;
+}
+
+#songNum74 {
+	margin-top: -1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum75 {
+	margin-top: -1px !important;
+}
+
+#songNum76 {
+	margin-top: -1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum77 {
+	margin-top: -1px !important;
+	margin-left: 5px !important;
+}
+
+#songNum78 {
+	margin-top: -1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum79 {
+	margin-top: -1px !important;
+	margin-left: 3px !important;
+}
+
+#songNum80 {
+	margin-top: 2px !important;
+	margin-left: 5px !important;
+}
+
+#songNum81 {
+	margin-top: -1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum83 {
+	margin-top: -1px !important;
+	margin-left: 8px !important;
+}
+
+#songNum84 {
+	margin-top: -1px !important;
+}
+
+#songNum85 {
+	margin-top: 1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum86 {
+	margin-left: 8px !important;
+}
+
+#songNum87 {
+	margin-top: -1px !important;
+	margin-left: 5px !important;
+}
+
+#songNum88 {
+	margin-top: -1px !important;
+	margin-left: 3px !important;
+}
+
+#songNum89 {
+	margin-top: -2px !important;
+	margin-left: 1px !important;
+}
+
+#songNum90 {
+	margin-top: -1px !important;
+	margin-left: 10px !important;
+}
+
+#songNum91 {
+	margin-top: -1px !important;
+	margin-left: 1px !important;
+}
+
+#songNum92 {
+	margin-top: -1px !important;
+	margin-left: 10px !important;
+}
+
+#songNum93 {
+	margin-top: 2px !important;
+	margin-left: 2px !important;
+}
+
+#songNum94 {
+	margin-top: -2px !important;
+	margin-left: 5px !important;
+}
+
+#songNum95 {
+	margin-top: -3px !important;
+	margin-left: 2px !important;
+}
+
+#songNum96 {
+	margin-top: -1px !important;
+}
+
+#songNum97 {
+	margin-top: -1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum98 {
+	margin-top: -1px !important;
+	margin-left: 5px !important;
+}
+
+#songNum99 {
+	margin-top: -1px !important;
+	margin-left: 2px !important;
+}
+
+#songNum100 {
+	margin-top: -1px !important;
+	margin-left: 3px !important;
+}
