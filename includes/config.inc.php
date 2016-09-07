@@ -10,9 +10,9 @@ define('PROJECT_STATUS','development');
 setlocale(LC_ALL, 'nl_NL');
 
 // databasegegevens
-define('DB_HOST','127.0.0.1');
-define('DB_NAME','radio1');
-define('DB_USERNAME','root');
-define('DB_PASSWORD','');
+define('DB_HOST','HOST');
+define('DB_NAME','NAME');
+define('DB_USERNAME','NAME');
+define('DB_PASSWORD','PASS');
 
 ?>
